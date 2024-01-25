@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mylinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/papayawhip"
+    android:stretchColumns="2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="130dp"
+        android:layout_height="66dp"
+        android:background="@color/bisque"
+        android:text="第一个控件"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="370dp"></TextView>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:background="@color/pink"
+        android:text="第二个控件"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="513dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="483dp"
+        android:layout_height="666dp"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="-184dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
